@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+   
+    <div class="container">
+        <div class="header">
+            <h2>Create a Account</h2>
+        </div>
+        <form class="form" id="form">
+            <div class="form-control">
+                <label>Username</label>
+                <input type="text" placeholder="Enter Username" id="username">
+                <span class="material-symbols-outlined">
+                    check_circle
+                    </span>
+                    <span class="material-symbols-sharp">
+                        error
+                        </span>
+                        <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Email</label>
+                <input type="email" placeholder="@gmail.com" id="email">
+                <span class="material-symbols-outlined">
+                    check_circle
+                    </span>
+                    <span class="material-symbols-sharp">
+                        error
+                        </span>
+                        <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label>Password</label>
+                <input type="password" placeholder="password" id="password">
+                <span class="material-symbols-outlined">
+                    check_circle
+                    </span>
+                    <span class="material-symbols-sharp">
+                        error
+                        </span>
+                        <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label> Confirm Password</label>
+                <input type="password" placeholder="Confirm password" id="password2">
+                <span class="material-symbols-outlined">
+                    check_circle
+                    </span>
+                    <span class="material-symbols-sharp">
+                        error
+                        </span>
+                        <small>Error Message</small>
+            </div>
+            <button>Submit</button>
+        
+        </div>
+         </form>
+    
+    </div>
+
+    <script src="js.js"></script>
+    
+</body>
+</html>

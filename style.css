@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+body {
+   background-color: rgb(53, 53, 161);
+   font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 10px 22px 26px rgb(51, 50, 50);
+    overflow: hidden;
+    max-width: 100%;
+    width: 450px;
+}
+
+.header {
+    background-color: white;
+    padding: 20px 30px;
+}
+
+.header h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.form {
+    padding: 30px 40px;
+}
+
+
+.form-control {
+    margin-bottom: 12px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.form-control input {
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: block;
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+  
+}
+
+.form-control.success input {
+    border-color: rgb(5, 187, 5);
+}
+
+.form-control.error input {
+    border-color: red;
+}
+
+.form-control span {
+    visibility: visible;
+    position: absolute;
+    top: 31px;
+    right: 5px;
+}
+
+.form-control.success span.material-symbols-outlined {
+    color:  rgb(7, 143, 7);
+    visibility: visible;
+}
+
+.form-control.success span.material-symbols-sharp {
+    color: red;
+   visibility: hidden;
+}
+
+
+.form-control.error span.material-symbols-sharp {
+    color: red;
+    visibility: visible;
+}
+
+.form-control.error span.material-symbols-outlined {
+    color:  rgb(7, 143, 7);
+    visibility: hidden;
+}
+
+.form-control small {
+    color: red;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    visibility: hidden;
+}
+.form-control.error small {
+    visibility: visible;
+}
+.form button { 
+    cursor: pointer;
+    background-color: rgb(53, 53, 161);
+    border: none;
+    color: white;
+    display: block;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 8px;
+}
+
+
